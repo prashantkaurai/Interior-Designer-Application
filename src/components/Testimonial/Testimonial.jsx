@@ -5,7 +5,7 @@ import { SlideLeft, SlideUp } from "../../animation/animate";
 const TestimonialData = [
   {
     id: 1,
-    name: "John Doe",
+    name: "Rohan",
     designation: "Designer",
     img: "https://i.pravatar.cc/300?img=1",
     text: "I had an amazing experience working with this interior design company. They transformed my living space into a stunning and functional area that perfectly reflects my style. The team was professional, creative, and attentive to every detail. I highly recommend their services to anyone looking to elevate their home decor.",
@@ -13,7 +13,7 @@ const TestimonialData = [
   },
   {
     id: 2,
-    name: "Alex",
+    name: "Suchita",
     designation: "Developer",
     img: "https://i.pravatar.cc/300?img=2",
     text: "I was impressed by the attention to detail and the quality of work delivered. The team went above and beyond to ensure that every aspect of the design met my expectations.",
@@ -21,7 +21,7 @@ const TestimonialData = [
   },
   {
     id: 3,
-    name: "George",
+    name: "Mr.Sharma",
     designation: "Manager",
     img: "https://i.pravatar.cc/300?img=3",
     text: "The designers were not only talented but also great listeners. They took the time to understand my vision and preferences, resulting in a space that truly feels like home.",
