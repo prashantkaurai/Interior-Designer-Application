@@ -28,9 +28,7 @@ const Navbar = () => {
   return (
     <>
       <motion.div
-        initial={{ y: -100 }}
-        animate={{ y: 0 }}
-        transition={{ duration: 0.5 }}
+        initial={{ y: -100 }} animate={{ y: 0 }} transition={{ duration: 0.5 }}
         className="container py-6 flex justify-between items-center"
       >
         {/* Logo section */}
@@ -43,8 +41,7 @@ const Navbar = () => {
           {NavLinks.map((link) => {
             return (
               <a
-                href={link.link}
-                className="inline-block mx-4 text-lg font-semibold"
+                href={link.link} className="inline-block mx-4 text-lg font-semibold"
               >
                 {link.title}
               </a>
