@@ -41,17 +41,13 @@ const Services = () => {
         {/* heading title */}
         <div className="space-y-2 text-center max-w-[350px] mx-auto mb-8">
           <motion.h1
-            variants={SlideUp(0.2)}
-            initial="initial"
-            whileInView={"animate"}
+            variants={SlideUp(0.2)} initial="initial" whileInView={"animate"}
             className="text-3xl font-bold font-serif"
           >
             What we provide
           </motion.h1>
           <motion.p
-            variants={SlideUp(0.4)}
-            initial="initial"
-            whileInView={"animate"}
+            variants={SlideUp(0.4)} initial="initial" whileInView={"animate"}
             className="text-gray-500 text-sm"
           >
             Bring your dream home to life with one-on-one design help & hand
@@ -63,10 +59,7 @@ const Services = () => {
           {ServiceCard.map((card) => {
             return (
               <motion.div
-                variants={SlideUp(card.delay)}
-                initial="initial"
-                whileInView={"animate"}
-                key={card.id}
+                variants={SlideUp(card.delay)} initial="initial" whileInView={"animate"} key={card.id}
                 className="space-y-4 border-[1px] border-black/30 px-6 py-12 hover:bg-black hover:text-white hover:shadow-[7px_7px_0px_0px_#6c6c6c] duration-300"
               >
                 <span className="inline-block text-xl border-[1px] border-black rounded-full p-3">
