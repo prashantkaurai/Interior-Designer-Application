@@ -9,8 +9,7 @@ const Footer = () => {
   return (
     <motion.footer
       variants={SlideLeft(0.2)}
-      initial="initial"
-      whileInView="animate"
+      initial="initial" whileInView="animate"
     >
       <div className="container py-11">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -70,7 +69,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <LuMessageSquare />
-                <a href="mailto:contact.thecodingjourney@gmail.com">Email</a>
+                <a href="mailto:contact.thecodeone@gmail.com">Email</a>
               </li>
             </ul>
           </div>
